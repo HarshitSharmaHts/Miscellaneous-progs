@@ -50,3 +50,8 @@ like "ccabdbacc"<-------------
 *****************************************
 
 
+*****************************************
+
+sorting.cpp
+
+---------> program to sort integer, character, string (name) using generic function.<-----------

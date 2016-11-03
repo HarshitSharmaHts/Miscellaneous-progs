@@ -106,7 +106,7 @@ void do_sort( U a[MAX_BUF] )							// do_sort generric function START
 	}
 }
 										// generic function END
-void do_sort( int a[MAX_BUF] )							// do_sort generric function START
+void do_sort( int a[MAX_BUF] )							// do_sort function for integers sorting START
 {
 	for(int i=0;i<MAX_BUF;i++)
 	{

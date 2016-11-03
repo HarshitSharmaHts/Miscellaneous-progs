@@ -55,3 +55,11 @@ like "ccabdbacc"<-------------
 sorting.cpp
 
 ---------> program to sort integer, character, string (name) using generic function.<-----------
+
+******************************************
+
+
+******************************************
+sorting1.cpp
+
+----------> sorting1.cpp is a modified version of sorting.cpp  <---------------------

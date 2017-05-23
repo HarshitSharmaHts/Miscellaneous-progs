@@ -13,7 +13,7 @@ class Complex
 			real=rel;
 			image=imag;
 		}																/*constructor END*/
-		Complex & operator*(int val)									/*complex * int */
+		Complex & operator*(int val)								/*complex * int */
 		{
 			static Complex temp;
 			temp.real=real*val;
@@ -21,7 +21,7 @@ class Complex
 			return temp;
 		}
 		
-		Complex & operator+(Complex a)									/*complex + complex*/
+		Complex & operator+(Complex a)								/*complex + complex*/
 		{
 			static Complex temp;
 			temp.real=real+a.real;
@@ -29,14 +29,14 @@ class Complex
 			return temp;
 		}
 		
-		Complex & operator+(int val)									/*complexx + int*/
+		Complex & operator+(int val)								/*complexx + int*/
 		{
 			static Complex temp;
 			temp.real=real+val;
 			temp.image=image;
 			return temp;
 		}
-		Complex & operator-(Complex a)									/*complex - complex*/
+		Complex & operator-(Complex a)								/*complex - complex*/
 		{
 			static Complex temp;
 			temp.real=real-a.real;
@@ -44,22 +44,22 @@ class Complex
 			return temp;
 		}
 		
-		Complex & operator-(int val)									/*complex - int*/
+		Complex & operator-(int val)								/*complex - int*/
 		{
 			static Complex temp;
 			temp.real=real-val;
 			temp.image=image;
 			return temp;
 		}
-		Complex & operator/(int val)									/*complex / int*/
+		Complex & operator/(int val)								/*complex / int*/
 		{
 			static Complex temp;
 			temp.real=real/val;
 			temp.image=image/val;
 			return temp;
 		}
-		Complex & operator++();											/*pre increment*/
-		Complex & operator++(int);										/*post increment*/
+		Complex & operator++();										/*pre increment*/
+		Complex & operator++(int);									/*post increment*/
 		friend Complex & operator*(Complex a, Complex b);				/*complex * complex*/
 		friend Complex & operator*(int val, Complex a);					/*int * complex*/
 		friend istream & operator>>(istream &In, Complex &a);			/* >> operator overloading*/

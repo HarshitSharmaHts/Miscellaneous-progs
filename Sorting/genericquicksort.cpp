@@ -8,9 +8,9 @@
  *
  */
 
-//including streams
+//including
 #include<iostream>
-#include<string.h>
+#include<cstring>
 #include<cstdlib>
 const int n=10;
 using namespace std;

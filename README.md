@@ -8,19 +8,6 @@
 
 	- program to understand generic class in JAVA [Miscellaneous-progs/JAVA/sortfile/]
 
-	-
+# class-assignment
 
-
-
-
-
-
-
-
-
-
-
-					Loading.......
-
-					      ^_^
-				 	     (`.`)
+	- some java class assignment's program.
